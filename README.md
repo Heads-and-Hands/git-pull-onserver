@@ -1,4 +1,4 @@
-# git-pull-onserver
+# PullOver
 Tool for remote git pull
 
 # Run
