@@ -31,7 +31,7 @@ def run_service():
     print 'Runnin service...'
     app = Flask(__name__)
 
-    @app.route("/", methods=['GET'])
+    @app.route("/", methods=['GET', 'POST'])
     def hello():
         repo_id = request.args.get('key')
         current_repo = repos.get(repo_id)
